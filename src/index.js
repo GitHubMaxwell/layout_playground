@@ -9,7 +9,8 @@ import App from "./components/App.js";
 // import "./styles/modules.scss";
 // import "./styles/jan.scss";
 // import "./styles/grid.scss";
-import "./styles/boxes.scss";
+// import "./styles/boxes.scss";
+import "./styles/mondrian.scss"
 
 function Index() {
     return <App />;
