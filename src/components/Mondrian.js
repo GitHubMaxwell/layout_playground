@@ -12,8 +12,8 @@ export default class Mondrian extends Component {
 
     render() {
         return (
-            <ul>
-                {this.state.items.map(ele => <li key={ele} className="mondrian-items"></li>)}
+            <ul className="mondrian-container">
+                {this.state.items.map(ele => <li key={ele} className="mondrian-item">{ele}</li>)}
             </ul>
         )
     }
