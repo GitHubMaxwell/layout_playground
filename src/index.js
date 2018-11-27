@@ -1,19 +1,11 @@
-import '@babel/polyfill';
+import "@babel/polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
-
 import App from "./components/App.js";
-
-// import "./styles/base.scss";
-// import "./styles/layout.scss";
-// import "./styles/modules.scss";
-// import "./styles/jan.scss";
-// import "./styles/grid.scss";
-// import "./styles/boxes.scss";
-import "./styles/mondrian.scss"
+import "./styles/main.scss";
 
 function Index() {
-    return <App />;
+  return <App />;
 }
 
 ReactDOM.render(<Index />, document.getElementById("root"));
