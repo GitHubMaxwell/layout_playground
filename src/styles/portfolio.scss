@@ -3,6 +3,12 @@ $secondary--text--color: #f64441;
 $primary--background--color: #f6f3ea;
 $secondary--background--color: #fff;
 
+@include mediaSm {
+  .portfolio__grid__container {
+    transform: rotate(-45deg);
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,13 +16,15 @@ $secondary--background--color: #fff;
 }
 
 body {
-  background: $secondary--background--color;
+  // background: $secondary--background--color;
+  background: $primary--background--color;
   text-transform: uppercase;
   // font-family: 'Futura W01', helvetica, san-serif;
   font-family: "Avenir", helvetica, san-serif;
   font-weight: bolder;
   color: $primary--text--color;
 }
+// @include mediaMd {
 h1,
 h2 {
   font-size: 2em;
@@ -54,7 +62,7 @@ a {
   align-items: center;
   //   width: 80vw;
   max-width: 600px;
-  //   transform: rotate(-45deg);
+  transform: rotate(-45deg);
   grid-template-columns: auto 100px auto 1fr;
   grid-template-rows: auto 1fr 1fr auto auto;
   grid-gap: 10px;
@@ -175,3 +183,4 @@ a {
   align-items: flex-start;
   height: 100%;
 }
+// }

@@ -70,7 +70,7 @@ export default class Portfolio extends Component {
                 </a>
               </li>
               <li className="icons__list__item">
-                <a target="_blank" href="#">
+                <a href="mailto:maxwell.rediker@gmail.com">
                   <i className="far fa-envelope" />
                 </a>
               </li>
